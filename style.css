@@ -22,6 +22,17 @@ h1 {
       grid-column: span 3;
       text-align: center;
       color: #ffffff;
+      opacity: 0;
+      animation: fade-entrance 1s ease-in-out forwards;
+}
+
+@keyframes fade-entrance {
+      from {
+            opacity: 0;
+      }
+      to {
+            opacity: 1;
+      }
 }
 
 #wrapper {
@@ -37,6 +48,17 @@ h1 {
       grid-column: span 3;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
+      opacity: 0;
+      animation: fade-entrance 1s ease-in-out forwards;
+}
+
+@keyframes fade-entrance {
+      from {
+            opacity: 0;
+      }
+      to {
+            opacity: 1;
+      }
 }
 
 #clock-box #clock {
@@ -113,6 +135,8 @@ footer {
       margin-top: 1.2rem;
       color: #ffb6c1;
 }
+
+
 
 #music {
       grid-column: 2;

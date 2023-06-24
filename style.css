@@ -109,6 +109,7 @@ a {
   color: #ffb6c1;
 }
 
+
 #info .one {
   grid-column: 3 / 6;
   text-align: center;
@@ -135,16 +136,6 @@ footer {
   position: relative;
   z-index: 1000;
   opacity: 0.4;
-}
-
-#mask {
-  background-image: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
-  opacity: 0.42;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 @media (max-width: 992px) {
@@ -175,4 +166,8 @@ footer {
     margin: 0;
     padding-bottom: 2rem;
   }
+  .two.fade-entrance a {
+  pointer-events: auto;
+    }
+  
 }
